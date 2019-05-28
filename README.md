@@ -25,13 +25,25 @@ brew install hub
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+### Install zsh plugins
+```
+brew install zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+### Restore .zshrc
+```
+rm ~/.zshrc
+mv <path_to_dir>/home/.zshrc ~/.zshrc
+```
+
 ### Install Fonts
 [Download the font archive](https://github.com/powerline/fonts/archive/master.zip), and unzip it. Go to fonts-master/UbuntuMono/ and install each of the four TTFs.  
 
 ### Restore iTerm params
 ```
 rm ~/Library/Preferences/com.googlecode.iterm2.plist
-mv <path_to_dir>/home/com.googlecode.iterm2.plist
+mv <path_to_dir>/home/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 ```
 restart iTerm
 

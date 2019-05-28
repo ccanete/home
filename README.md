@@ -51,3 +51,13 @@ restart iTerm
 1. Open Terminal, then navigate to Terminal Preferences > Profiles > Font and click the Change button.  
 2. Select Ubuntu Mono derivative Powerline and set the font size to 14.  
 3. Close preferences, and quit Terminal.
+
+## Configure SSH defaults
+
+Exemple
+```
+> cat ~/.ssh/config
+HOST *.apple.co
+     USER root
+     IdentityFile ~/.ssh/apple
+```

@@ -61,3 +61,10 @@ HOST *.apple.co
      USER root
      IdentityFile ~/.ssh/apple
 ```
+
+## Switch between windows of the same app
+
+Go to Settings > Keybord > Shortcuts > Keybord  
+Set **Move focus to the next windows** to `⌘@`
+
+<img src="https://i.stack.imgur.com/P5MJ5.png" />

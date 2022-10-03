@@ -14,10 +14,11 @@ Follow GUI instructions
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+Or visit [brew.sh](https://brew.sh/)
 
-### Install hub
+### Install gh
 ```
-brew install hub
+brew install gh
 ```
 
 ### Install git autocomplete

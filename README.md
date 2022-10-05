@@ -37,6 +37,9 @@ brew install zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
+### Install custom agnoster theme (with time)
+Copy [lima-agnoster.zsh-theme](https://gist.github.com/ccanete/cd3b20a0311b9fbbe7987008a90560d2#file-lima-agnoster-zsh-theme) to zsh themes folder `~/.oh-my-zsh/themes/`
+
 ### Restore .zshrc
 ```
 rm ~/.zshrc
